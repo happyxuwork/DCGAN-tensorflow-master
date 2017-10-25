@@ -521,4 +521,5 @@ class DCGAN(object):
             return True, counter
         else:
             print(" [*] Failed to find a checkpoint")
+            str = 'file'
             return False, 0
