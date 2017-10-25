@@ -6,6 +6,7 @@ from model import DCGAN
 from utils import pp, visualize, to_json, show_all_variables
 
 import tensorflow as tf
+import numpy as np
 
 # 以下为原来的备份
 # 可以参考一下的
