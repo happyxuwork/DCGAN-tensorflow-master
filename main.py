@@ -6,7 +6,6 @@ from model import DCGAN
 from utils import pp, visualize, to_json, show_all_variables
 
 import tensorflow as tf
-import numpy as np
 
 # 以下为原来的备份
 # 可以参考一下的
@@ -73,6 +72,7 @@ def main(_):
     run_config.gpu_options.allow_growth = True
 
     with tf.Session(config=run_config) as sess:
+        yes = 'str'
         if FLAGS.dataset == 'mnist':
             dcgan = DCGAN(
                 sess,
