@@ -5,7 +5,6 @@ import tensorflow as tf
 from tensorflow.python.framework import ops
 
 from utils import *
-
 try:
     image_summary = tf.image_summary
     scalar_summary = tf.scalar_summary
@@ -46,6 +45,7 @@ class batch_norm(object):
 
 def conv_cond_concat(x, y):
     """Concatenate conditioning vector on feature map axis."""
+    srt = "fasdfds"
     x_shapes = x.get_shape()
     y_shapes = y.get_shape()
     return concat([
