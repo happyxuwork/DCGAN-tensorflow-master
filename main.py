@@ -8,6 +8,7 @@ from utils import pp, visualize, to_json, show_all_variables
 import tensorflow as tf
 
 # 以下为原来的备份
+# 使得可以加载
 # flags = tf.app.flags
 # flags.DEFINE_integer("epoch", 25, "Epoch to train [25]")
 # flags.DEFINE_float("learning_rate", 0.0002, "Learning rate of for adam [0.0002]")
