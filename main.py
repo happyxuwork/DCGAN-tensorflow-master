@@ -73,6 +73,7 @@ def main(_):
 
     with tf.Session(config=run_config) as sess:
         yes = 'str'
+
         if FLAGS.dataset == 'mnist':
             dcgan = DCGAN(
                 sess,
